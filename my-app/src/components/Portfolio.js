@@ -28,7 +28,7 @@ const Portfolio = () => {
             </div>
             <div className="whale-back back">
               <h3 className="project-name">The WhaleBase</h3>
-              <p className="project-summary">A fully responsive full stack application that I worked on solo for my final project at General Assembly. The whale base is a website that accesses my local API in the backend of the application and displays information about different types of whale. Implementing authentication, users can sign up for an account, login, and then post blogs to the website. The owners of the blogs may then later delete and edit their posts.</p>
+              <p className="project-summary">A fully responsive full stack application that I worked on solo. With the backend built using Python and Django, The WhaleBase displays information about different species of whale. Implementing authentication, users can sign up for an account, login, and then post blogs to the website. The owners of the blogs may then later delete and edit their posts.</p>
             </div>
           </div>
         </div>
@@ -54,7 +54,7 @@ const Portfolio = () => {
             </div>
             <div className="homemade-back back">
               <h3 className="project-name">Homemade</h3>
-              <p className="project-summary">This project was a group project that we worked on for about a week. In a team of 3, we built a recipe web application from scratch. We began by putting together photoshop mock-ups of our ideas, we then coded the backend and built our API, before moving onto the front end which made use of React JS. The recipe site allows a user to sign up and login, allowing for more access with an account such as adding a recipe, leaving a review, and editing their profile user page. The design is also responsive across different sized screens.  </p>
+              <p className="project-summary">A group project that took place over a week. In a team of 3, we built a recipe web application. Working from our photoshop mock-ups, the front end is built using React JS. The back end was built using Node and Express JS. The site displays recipes accessed through our local API and allows users to sign up and post their own.</p>
             </div>
           </div>
         </div>
@@ -83,7 +83,7 @@ const Portfolio = () => {
             </div>
             <div className="artist-back back">
               <h3 className="project-name">ArtistIndex</h3>
-              <p className="project-summary">This second project was a quick 48-hour pair-programming challenge where me and my partner utilized an API within a piece of work for the first time. Using React JS for the front-end, we built an artist search application that live searches as you type and pulls up an artists’ photograph, biography, and discography. This was done by diving into nested data using the Audio DB API.</p>
+              <p className="project-summary">A 2 day hackathon-style pair programming project utilising React JS. We built an artist search application that live searches as you type and pulls up an artist's photograph, biography, and discography implementing the Audio DB API.</p>
             </div>
           </div>
         </div>
@@ -108,7 +108,7 @@ const Portfolio = () => {
             </div>
             <div className="ernesto-back back">
               <h3 className="project-name">Ernesto's Escape</h3>
-              <p className="project-summary">A fully responsive full stack application that I worked on solo for my final project at General Assembly. The whale base is a website that accesses my local API in the backend of the application and displays information about different types of whale. Implementing authentication, users can sign up for an account, login, and then post blogs to the website. The owners of the blogs may then later delete and edit their posts.</p>
+              <p className="project-summary">A frogger-style game built using HTML, CSS, and vanilla JavaScript built over a week.</p>
             </div>
           </div>
         </div>
