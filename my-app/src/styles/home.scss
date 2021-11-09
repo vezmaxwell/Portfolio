@@ -1,0 +1,89 @@
+/* Landing Page */
+
+h1 {
+  font-family: $heading-font;
+  font-size: 6em;
+  margin: 0;
+}
+
+.home-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(255, 139, 51, 0.872);
+}
+
+.illustration {
+  height: 400px;
+}
+
+.name-info {
+  text-align: left;
+}
+
+.about {
+  margin-left: 20px;
+  font-size: 1.2em;
+  color: #2a1419;
+}
+
+.home-contents {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  animation: fade 3s ease-in;
+}
+
+
+@media only screen and (max-width:1300px) {
+
+  .about {
+    font-size: 1em;
+  }
+
+  @media only screen and (max-width:768px) {
+  
+    h1 {
+      font-size: 4em;
+    }
+
+    .about {
+      margin-right: 60px;
+    }
+  }
+
+  @media only screen and (max-width: 500px){
+    
+    .home-contents {
+      flex-direction: column;
+    }
+
+    .name-info {
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      width: 300px;
+    }
+
+    .about, .name {
+      text-align: center;
+      margin: 0px 30px;
+    }
+
+    .name {
+      font-size: 3em;
+      margin-bottom: 10px;
+    }
+
+    .about {
+      font-size: 0.8em;
+    }
+
+
+    .illustration {
+      height: 250px;
+    }
+
+  }
+
+}

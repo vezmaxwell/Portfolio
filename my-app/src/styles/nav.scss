@@ -1,0 +1,58 @@
+// Nav
+
+.navleft-container {
+  position: fixed;
+  display: flex;
+  height: 100vh;
+}
+
+.navright-container {
+  position: fixed;
+  right: 0;
+}
+
+.right-nav {
+  border-left: 3px solid black;
+}
+
+.left-nav {
+  border-right: 3px solid black;
+}
+
+.nav-contents {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.nav-item {
+  border-bottom: 3px solid black;
+  height: 30%;
+  width: 40px;
+  writing-mode: vertical-rl;
+  text-orientation: upright;
+  font-size: 1em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.empty {
+  height: 20%;
+}
+
+.nav-contents:hover {
+  cursor: pointer;
+  opacity: 0.8;
+}
+
+@media only screen and (max-width:1300px) {
+
+  .empty {
+    display: none;
+  }
+
+  .nav-item {
+    height: 50%;
+  }
+}

@@ -1,0 +1,90 @@
+.interests-container {
+  background-color: rgba(51, 184, 255, 0.872);
+  padding: 100px;
+}
+
+.interest-title {
+  font-family: $heading-font;
+  font-size: 2em;
+  margin: 20px;
+}
+
+.interest-info {
+  width: 560px;
+  text-align: center;
+  margin: 20px 0px;
+  font-size: 1.1em;
+}
+
+.interest-section {
+  margin: 50px 50px;
+}
+
+.interest-title {
+  text-align: center;
+}
+
+
+.interest-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0px 100px;
+}
+
+
+@media only screen and (max-width:1300px) {
+
+  .interest-section {
+    margin: 20px;
+  }
+  
+  .hobby {
+    width: 450px;
+  }
+
+}
+
+@media only screen and (max-width:768px) {
+  .hobby {
+    width: 300px;
+  }
+
+  .interest-info {
+    font-size: 0.9em;
+    width: 250px;
+  }
+
+  .freedive-img200px {
+    height: 100%;
+  }
+
+}
+
+
+@media only screen and (max-width:500px) {
+
+  .interest-container {
+    flex-direction: column;
+    margin: 0px;
+  }  
+
+  .interest-info {
+    width: 200px;
+    margin-left: 0px;
+    text-align: justify;
+  }
+
+  .hobby {
+    width: 280px;
+  }
+
+  .travel {
+    flex-direction: column-reverse;
+  }
+
+  .interests-container {
+    padding-top: 0px;
+  }
+  
+}

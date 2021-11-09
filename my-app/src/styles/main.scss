@@ -1,0 +1,105 @@
+$heading-font: 'Lobster', cursive;
+$body-font: 'Oswald', sans-serif;
+
+@import './portfolio.scss';
+@import './home.scss';
+@import './interests.scss';
+@import './skills.scss';
+@import './nav.scss';
+
+
+* {
+  font-family: $body-font;
+  font-weight: 300;
+  letter-spacing: 0.5px;
+  margin: 0px;
+  padding: 0px;
+  // cursor: url('../images/Icons/scroll-cursor.png') 10 3, pointer;
+  text-decoration: none;
+  color: black;
+}
+
+.pages {
+  border-bottom: 3px solid black;
+}
+
+.icon {
+  height: 50px;
+  width: 50px;
+  transition: all .2s ease-in-out; 
+}
+
+
+.section {
+  height: 100vh;
+}
+
+.contact-section {
+  display: flex;
+  margin: 20px;
+}
+
+.contact-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 20vh;
+  background-color: rgba(255, 255, 76, 0.877);
+}
+
+.contact-info {
+  margin-left: 20px;
+}
+
+.contact-icon {
+  margin: 20px;
+}
+
+
+#portfolio-btn {
+  background-color: rgba(252, 126, 187);
+}
+
+#skills-btn {
+  background-color: rgba(134, 171, 72);
+}
+
+#interests-btn {
+  background-color: rgba(51, 184, 255);
+}
+
+#contact-btn {
+  background-color: rgba(255, 255, 76);
+}
+
+// a {
+//   text-align: center;
+//   vertical-align: middle;
+// }
+
+li {
+  list-style-type: none;
+}
+
+// Fade 
+
+@keyframes fade {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+
+
+}
+
+
+@media only screen and (max-width: 360px){
+  
+  .icon {
+    height: 30px;
+  }
+
+
+}

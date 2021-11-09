@@ -1,0 +1,280 @@
+/* Portfolio */
+.portfolio-page {
+  padding-bottom: 100px;
+  background-color: rgba(252, 126, 187, 0.699);
+}
+
+.portfolio-heading {
+  text-align: right;
+  margin: 0px 80px 80px;
+  padding: 60px 80px 0px;
+  font-family: $heading-font;
+  font-size: 4em;
+}
+
+.project-container {
+  display: flex;
+  align-items: center;
+}
+
+.project-image {
+  width: 100%;
+  height: auto;
+}
+
+.whalebase {
+  margin: 100px 80px;
+}
+
+.homemade {
+  margin: 100px 200px;
+}
+
+.artist-index {
+  margin: 100px 80px;
+}
+
+.ernesto {
+  margin-right: 200px;
+}
+
+.portfolio-right {
+  direction: rtl;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;  
+}
+
+.project-info {
+  margin: 0px 100px;
+  direction: rtl;
+}
+
+.icon-links {
+  margin: 0px 5px;
+}
+
+.project-info:hover {
+  cursor: pointer;
+}
+
+.project-summary {
+  text-align: center;
+  padding: 0px 70px;
+  font-size: 1.2em;
+}
+
+.project-name {
+  font-family: $heading-font;
+  margin-bottom: 20px;
+  font-size: 1.5em;
+}
+
+
+// FLIPPING
+
+.card-container {
+  position: relative;
+  height: 380px;
+  width: 700px;
+}
+
+.card {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  transform-style: preserve-3d;
+  transition: all 1.3s ease;
+}
+
+.project-image {
+  object-fit: contain;
+  // border: 8px solid rgba(220, 0, 139, 0.735);
+}
+
+.card:hover {
+  transform: rotateY(180deg);
+}
+
+.front {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+}
+
+.back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+  transform: rotateY(180deg);
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  background-color: rgba(255, 139, 51, 0.872);
+}
+
+// Project Backs
+
+.whale-back {
+  background-color: #8ba2b8;
+}
+
+.homemade-back {
+  background-color: #f7bfb3;
+}
+
+.artist-back {
+  background-color: #d92e8c9e;
+}
+
+.ernesto-back {
+  background-color: #6b3b9fb5;
+}
+
+// Wiggle
+
+@keyframes shake {
+  0% {
+    transform: rotate(+1deg);
+  }
+  5% {
+    transform: rotate(-1deg);
+  }
+  10% {
+    transform: rotate(+1deg);
+  }
+  15% {
+    transform: rotate(-1deg);
+  }
+  20% {
+    transform: none;
+  }
+}
+
+.shake {
+  // animation: shake 1s ease-in 0.3s infinite;
+  animation: shake 4s ease-in 0s infinite;
+}
+
+
+
+// Small laptop
+
+
+@media only screen and (max-width:1300px) {
+
+  .card-container {
+    height: 250px;
+    width: 550px;
+  }
+
+  .project-summary {
+    font-size: 1em;
+    padding: 0px 20px;
+  }
+
+  .project-name {
+    font-size: 1em;
+    margin: 0px;
+  }
+
+
+  .whalebase {
+    margin: 0px 100px;
+  }
+  
+  .homemade {
+    margin: 100px;
+  }
+  
+  .artist-index {
+    margin: 100px;
+  }
+  
+  .ernesto {
+    margin-right: 100px;
+  }
+
+  .portfolio-heading {
+    text-align: right;
+    margin: 0px 80px;
+    font-family: $heading-font;
+    font-size: 3em;
+  }
+
+
+@media only screen and (max-width:768px) {
+
+  .card-container {
+    height: 160px;
+    width: 500px;
+  }
+
+  .project-summary {
+    font-size: 0.6em;
+  }
+
+  .whalebase {
+    margin: 40px 60px;
+  }
+  
+  .homemade {
+    margin: 40px 60px 0px;
+  }
+  
+  .artist-index {
+    margin: 40px 60px;
+  }
+  
+  .ernesto {
+    width: 83%;
+    margin-left: 60px;
+  }
+
+  .portfolio-right {
+    direction: ltr;
+  }
+
+  .portfolio-heading {
+    font-size: 2em;
+    padding-bottom: 20px;
+  }
+
+}
+
+@media only screen and (max-width: 500px){
+  
+  .card-container {
+    height: 130px;
+    width: 200px;
+  }
+
+  .project-container {
+    width: 70vw;
+    flex-direction: column;
+  }
+
+  .project-info {
+    display: flex;
+  }
+
+  .card:hover {
+    transform: none;
+  }
+
+  .shake {
+    animation: none;
+  }
+
+  .portfolio-heading {
+    margin: 0px;
+    text-align: center;
+  }
+
+}
+
+
+}
