@@ -31,7 +31,7 @@ const Interests = () => {
           <div className="interest-info-container interest-section">
             <h4 className="interest-title">Travel</h4>
             <p className="interest-info travel">
-            Another love of mine is travelling. I spent 6 months freediving in Thailand before backpacking Australia and have done other backpacking trips around Asia as well. Covid has been hard for the travel bug but I’m greatful to finally have a better appreciation of how beautiful the UK can be as well! 
+            Another love of mine is travelling. I spent 6 months freediving in Thailand before backpacking Australia, and have done other backpacking trips around Asia as well. Covid has been hard for the travel bug but I’m grateful to finally have a better appreciation of how beautiful the UK can be too! 
             </p>
           </div>
 

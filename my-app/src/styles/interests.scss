@@ -11,9 +11,9 @@
 
 .interest-info {
   width: 560px;
-  text-align: center;
   margin: 20px 0px;
   font-size: 1.1em;
+  text-align: justify;
 }
 
 .interest-section {
@@ -38,9 +38,17 @@
   .interest-section {
     margin: 20px;
   }
-  
+
   .hobby {
     width: 450px;
+  }
+
+}
+
+
+@media only screen and (max-width:1024px) {
+  .interest-info {
+    width: 350px;
   }
 
 }
@@ -61,8 +69,7 @@
 
 }
 
-
-@media only screen and (max-width:500px) {
+@media only screen and (max-width:540px) {
 
   .interest-container {
     flex-direction: column;
@@ -72,7 +79,6 @@
   .interest-info {
     width: 200px;
     margin-left: 0px;
-    text-align: justify;
   }
 
   .hobby {
@@ -86,5 +92,5 @@
   .interests-container {
     padding-top: 0px;
   }
-  
+
 }

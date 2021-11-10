@@ -41,49 +41,76 @@ h1 {
     font-size: 1em;
   }
 
-  @media only screen and (max-width:768px) {
-  
-    h1 {
-      font-size: 4em;
-    }
-
-    .about {
-      margin-right: 60px;
-    }
+@media only screen and (max-width: 1024px){
+    
+  .home-contents {
+    flex-direction: column;
   }
 
-  @media only screen and (max-width: 500px){
-    
-    .home-contents {
-      flex-direction: column;
-    }
+  .name-info {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 600px;
+  }
 
-    .name-info {
-      display: flex;
-      justify-content: center;
-      flex-direction: column;
-      width: 300px;
-    }
+  .about, .name {
+    text-align: center;
+    margin: 0px 30px;
+  }
 
-    .about, .name {
-      text-align: center;
-      margin: 0px 30px;
-    }
+  .name {
+    margin-bottom: 20px;
+  }
 
-    .name {
-      font-size: 3em;
-      margin-bottom: 10px;
-    }
-
-    .about {
-      font-size: 0.8em;
-    }
+  .about {
+    font-size: 1.4em;
+  }
 
 
-    .illustration {
-      height: 250px;
-    }
+  .illustration {
+    height: 500px;
+  }
 
+}
+
+
+@media only screen and (max-width:768px) {
+  
+  h1 {
+    font-size: 4em;
+  }
+
+  .about {
+    margin-right: 60px;
+  }
+}
+
+}
+
+@media only screen and (max-width: 600px){   
+
+  .name-info {
+    width: 300px;
+  }
+
+  .about, .name {
+    text-align: center;
+    margin: 0px 30px;
+  }
+
+  .name {
+    font-size: 3em;
+    margin-bottom: 10px;
+  }
+
+  .about {
+    font-size: 0.8em;
+  }
+
+
+  .illustration {
+    height: 250px;
   }
 
 }
