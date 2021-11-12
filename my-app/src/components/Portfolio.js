@@ -37,7 +37,7 @@ const Portfolio = () => {
             <a className="icon-links" href="https://github.com/vezmaxwell/TheWhalebase" target="_blank" rel="noreferrer">
               <img className="icon" src={GithubLogo} alt="github logo" />
             </a>
-            <a className="icon-links" href="https://youtu.be/BpsV2BT1wVc" target="_blank" rel="noreferrer">
+            <a className="icon-links" href="https://thewhalebase.herokuapp.com/" target="_blank" rel="noreferrer">
               <img className="icon" src={NewTab} alt="open in new tab" />
             </a>
         </div>
@@ -63,7 +63,7 @@ const Portfolio = () => {
             <a className="icon-links" href="https://github.com/vezmaxwell/Homemade" target="_blank" rel="noreferrer">
               <img className="icon" src={GithubLogo} alt="github logo" />
             </a>
-            <a className="icon-links" href="https://youtu.be/e1UYFEKf35A" target="_blank" rel="noreferrer">
+            <a className="icon-links" href="https://recipes-homemade.herokuapp.com/" target="_blank" rel="noreferrer">
               <img className="icon" src={NewTab} alt="open in new tab" />
             </a>
         </div>
